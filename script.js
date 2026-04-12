@@ -33,3 +33,11 @@ button.addEventListener("click",function(){
     descInput.value = "";
 
 })
+
+let tasks=JSON.parse(localStorage.getItem("tasks")) || [];
+tasks.forEach(function(task){
+    const div=document.createElement("div");
+    div.classList.add("task")
+    div.innerText=`${task.title}||${task.date}||${task.description}`;
+    taskList.appendChild(div);
+})
