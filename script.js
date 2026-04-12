@@ -26,7 +26,7 @@ button.addEventListener("click",function(){
 
     const div=document.createElement("div");
     div.classList.add("task")
-    div.innerText = `${title} | ${date} | ${desc}`;
+    div.innerHTML=`<strong>${title}</strong><span>${date}</span><p>${desc}</p>`
     taskList.appendChild(div);
     titleInput.value = "";
     dateInput.value = "";
@@ -38,6 +38,6 @@ let tasks=JSON.parse(localStorage.getItem("tasks")) || [];
 tasks.forEach(function(task){
     const div=document.createElement("div");
     div.classList.add("task")
-    div.innerText=`${task.title}||${task.date}||${task.description}`;
+    div.innerHTML=`<strong>${title}</strong><span>${date}</span><p>${desc}</p>`
     taskList.appendChild(div);
 })
