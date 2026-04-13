@@ -1,58 +1,62 @@
-# 📝 To-Do JS Core Logic
+# 📝 Todo App (JavaScript + LocalStorage)
 
 ## 📌 Overview
-This project demonstrates the core logic of a To-Do List application using JavaScript and LocalStorage.
-
-It focuses only on the backend logic (no UI yet), showing how tasks can be stored, retrieved, and managed persistently in the browser.
+A simple and interactive Todo App built using JavaScript that allows users to add, view, and delete tasks.  
+All tasks are stored in LocalStorage, making the app persistent even after page reload.
 
 ---
 
-## ⚙️ Features
-- ➕ Add new tasks
-- ❌ Delete existing tasks
-- 💾 Store tasks using LocalStorage
-- 🔄 Retrieve tasks from LocalStorage
-- 📋 Display all tasks
+## 🚀 Features
+- ➕ Add new tasks with title, date, and description  
+- 📂 Store tasks using LocalStorage  
+- 📋 View all tasks with proper indexing  
+- ❌ Delete tasks dynamically  
+- ✅ Success message on task addition  
+- 🎨 Clean and responsive UI  
 
 ---
 
 ## 🧠 What I Learned
-- How LocalStorage works in JavaScript
-- Difference between LocalStorage and SessionStorage
-- Using `JSON.stringify()` and `JSON.parse()`
-- Structuring code using functions
-- Basic CRUD operations in JavaScript
+- DOM Manipulation  
+- Event Handling in JavaScript  
+- Working with LocalStorage (JSON.parse & JSON.stringify)  
+- Dynamic UI rendering  
+- Managing application state  
 
 ---
 
-## 📁 Project Structure
-todo-js-core-logic/
+## 🛠️ Tech Stack
+- HTML  
+- CSS  
+- JavaScript  
+
+---
+
+## 📂 Project Structure:-
+project/
+├── index.html
+├── style.css
 ├── script.js
 └── README.md
 
 
 ---
 
-## 🚀 How It Works
-- Tasks are stored in LocalStorage as a JSON array
-- Functions handle adding, deleting, and displaying tasks
-- Data persists even after page reload
+## ⚙️ How It Works
+- Tasks are stored in LocalStorage as an array  
+- On clicking "Show Tasks", all tasks are rendered dynamically  
+- Each task includes a delete button that removes it from storage  
+- UI updates instantly after any action  
 
 ---
 
-## 🔮 Future Improvements
-- Add HTML & CSS UI
-- Implement DOM manipulation
-- Add task completion status
-- Add filters (completed / pending)
+## 💡 Future Improvements
+- ✏️ Edit task feature  
+- ✅ Mark task as completed  
+- 🔍 Search & filter tasks  
+- 🌙 Dark mode  
 
 ---
 
-## 🛠️ Tech Used
-- JavaScript (ES6)
-- Browser LocalStorage API
-
----
-
-## 💬 Note
-This is a core logic project. UI will be added in future versions.
+## 👨‍💻 Author
+Abhinav Bhatpude
